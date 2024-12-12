@@ -1,9 +1,69 @@
 *{
     font-family: "Open Sans", sans-serif;
+    margin: 0;
 }
 header{
-    background-color: #490a3d;
+    background-color: #b566a7;
+    
 }
 .nav-item a{
-  color:#8a9b0f
+  color:#000000
 }
+#boton-perfil{
+  background-color: #860f9b;
+}
+.nav-item a:hover{
+  color: #890449;
+}
+#app{
+  color: #ba1e4a;
+}
+.boton-cv{
+  background-color: #7f327f;
+  color: #e4e6c3;
+}
+.caja-habilidades{
+  background-color: #933c79;
+  color: #e4e6c3;
+}
+.btn-proyecto{
+  background-color: #9f4ca2;
+}
+.btn-proyecto a{
+  text-decoration: none;
+  color: #e4e6c3;
+}
+.card .card-title{
+  color: #63203d;
+}
+#testimonios{
+  width: 100%;
+}
+#contacto{
+  width: 100%;
+  background-color: #865fbf;
+  color: #000000;
+  
+}
+#btn-contacto{
+  background-color: #5720cd;
+  color: #e4e6c3;
+}
+#btn-contacto:hover{
+  background-color: #a232a8;
+}
+footer{
+  flex:end;
+}
+footer ul li a .bi{
+  color: #ff00f2;
+}
+footer p{
+  color: #ba1e4a;
+}
+footer p a{
+  text-decoration: none;
+  color: #361f2d;
+  
+}
+

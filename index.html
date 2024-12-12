@@ -25,13 +25,13 @@
   <body>
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <i class="bi bi-laptop"></i>
+            <i class="bi bi-moon-stars px-4"></i>
            <span class="fs-4 p-3">Metztonalli López Esquivel</span>
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Yo</a></li>
-            <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" style="background-color: rgb(135, 28, 197);">Yo</a></li>
+            <li class="nav-item"><a href="#hanging-icons habilidades" class="nav-link">Habilidades</a></li>
             <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
             <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
             <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
@@ -47,13 +47,19 @@
                       <p class="lead mb-4">Estudiante de Tecnologías de la información interesada en ramas 
                         como Frondend. Inteligencia Artificial y Ciberseguridad. 
                         Deseo enfocarme en la investigación y 
-                        participación de asusntos legales enfocados en tales ramas.</p>
+                        participación de asuntos legales enfocados en tales ramas.</p>
                       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Conoce mi trayectoria</button>
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3" style="background-color: rgb(135, 28, 197)">Conoce mi trayectoria</button>
                       </div>
                     </div>
                   </div>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv" style="background-color: rgb(135, 28, 197)">
+                      Link al CV
+                    </button>
+                  </div>
             </div>
+
 
 <!--Habilidades-->
  <div class="habilidades containter px-4 py.5" id="hanging-icons habilidades">
@@ -61,11 +67,11 @@
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="feature col">
         <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-1 mb-3">
-          <i class="bi bi-laptop px-1"></i>
+          <i class="bi bi-bookmark-dash"></i>
         </div>
         <h3 class="fs-2 text-body-emphasis">Desarrollo Frondend</h3>
         <p>He creado sitios web responsivos aplicando 
-            los conocimientos obtenidos durante el bootcamp de Tecnolochicas PRO</p>
+            los conocimientos obtenidos durante el bootcamp de Tecnolochicas PRO. </p>
         <!--<a href="#" class="icon-link">
           Call to action
           <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
@@ -73,10 +79,10 @@
       </div>
       <div class="feature col">
         <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-1 mb-3">
-          <i class="bi bi-laptop px-1"></i>
+          <i class="bi bi-bookmark-dash"></i>
         </div>
         <h3 class="fs-2 text-body-emphasis">Desarrollo Backend PHP</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <p>He creado sitios web con el uso del lenguaje PHP basico, tales como un carrito de compras. </p>
        <!-- <a href="#" class="icon-link">
           Call to action
           <svg class="bi"><use xlink:href="#chevron-right"></use></svg> 
@@ -88,7 +94,7 @@
           <i class="bi bi-laptop px-1"></i>
         </div>
         <h3 class="fs-2 text-body-emphasis">Estudiante de Tecnologías de la información</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <p>Me encuentro en 7mo cuatrimestre de la ingeniería en TI, por lo tanto he apredido de lenguajes cómo Python,PHP y Java, uso de MYSLQ; así como la creación y procesos de documentación de un software. </p>
        <!--- <a href="#" class="icon-link">
           Call to action
           <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
@@ -97,27 +103,160 @@
     </div>
   </div>
   <!--Proyectos-->
-     <!--colocar id-->
+     <!--Proyectos que he hecho-->
+     <!--Proyecto 1-->
+     <div id="proyectos" class="proyectos container mt-5">
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- imagenes del proyecto -->
+            <img class="bd-placeholder-img card-img-top" src="assets/PinterestCaptura.png" alt="" />
+            <div class="card-body">
+              <p class="card-text">Clon de Pinterest</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!--Link de proyectos en git y vercel-->
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://pinterest-clone-kappa-three.vercel.app">Ver</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://github.com/mtzl3/pinterest-clone">Github</a>
+                  </button>
+                </div>
+                <small class="text-body-secondary">HTML, CSS Y JS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+     <!--cards Proyecto 2 -->
+     <div class="col">
+      <div class="card shadow-sm">
+        <!-- imagen -->
+        <img class="bd-placeholder-img card-img-top" src="assets/primersitioCaptura.png" alt="" />
+        <div class="card-body">
+          <p class="card-text">No disponible para vista previa</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                <a target="_blank" href="#">Ver</a>
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                <a target="_blank" href="#">Github</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--card proyecto 3-->
+    <div class="col">
+      <div class="card shadow-sm">
+        <!-- imagen -->
+        <img class="bd-placeholder-img card-img-top" src="assets/PinterestCaptura.png" alt="" />
+        <div class="card-body">
+          <p class="card-text">HTML, CSS Y JS</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                <a target="_blank" href="https://pinterest-clone-kappa-three.vercel.app">Ver</a>
+              </button>
+              <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
+                <a target="_blank" href="https://github.com/mtzl3/pinterest-clone">Github</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!--Testimonios-->
      <!--añadir id-->
+    <div id="testimonios" class="testimonios container mt-5" style="display: inline-block;">
+      <h2 class="pb-2 border-bottom">Testimonios</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 
-  <!--contacto-->
-  <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold text-body-emphasis">Contacto</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="mailto:lopemetz621@gmail.com">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Invitame</button>
+        <div class="carousel-inner">
+          <!-- item de card -->
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!-- card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/fotoTestimonio.webp" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                <h5 class="card-title text-center">Alejandro Rivera</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Compañero de estudios</h6>
+                <div class="card-body">
+                  <p class="card-text">Destaca por su liderazgo y capacidad para motivar al equipo. Tiene facilidad de palabra y desenvolvimiento a la hora de presentar un proyecto. </p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+
+          <!--card 2-->
+          <!-- Item -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- Card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/fotoTestimonio.webp" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                <h5 class="card-title text-center">Arturo Montalvo Osornio</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Compañero de estudios</h6>
+                <div class="card-body">
+                  <p class="card-text">Tuve la oportunidad de trabajar con Metztonalli en proyectos academicos y destaco su capacidad para liderar de manera efectiva</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- inicio card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/fotoTestimonio.webp" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                <h5 class="card-title text-center">María García</h5>
+                <h6 class="card-subtitle text-center mb-1 text-body-secondary">Compañera de estudios</h6>
+                <div class="card-body">
+                  <p class="card-text">Trabajar con ella es una experiencia gratificante. Su paciencia y su capacidad para mantener la calma en cualquier situación crean un ambiente de trabajo positivo y productivo.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-  </div>
+<!--contacto-->
+    <!-- Contacto -->
+    <h2 class="pb-2 border-bottom">Para encontrarme...</h2>
+
+    <div id="contacto" class="px-7 py-5 my-5 text-center">
+      <i class="d-block mx-auto mb-4 fs-1 bi bi-chat-right-text-fill"></i>
+      <h1 class="display-5 fw-bold ">Contactame</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Contáctame para comenzar un proyecto juntos.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:lopemetz621@gmail.com">
+            <button id="btn-contacto" type="button" class="btn  btn-lg px-4 gap-3">Invitame</button>
+          </a>
+        </div>
+      </div>
+    </div>
 </main>
+<!--FOOTER-->
 <footer class="py-3 my-4">
   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-    <li class="nav-item"><a href="www.linkedin.com/in/lopez-esquivel-metztonalli/" class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin"></i></a></li>
+    <li class="nav-item"><a href="https://www.linkedin.com/in/lopez-esquivel-metztonalli-27a09b293/" class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin"></i></a></li>
     <li class="nav-item"><a href="https://github.com/mtzl3" class="nav-link px-2 text-body-secondary"><i class="bi bi-github"></i></a></li>
     <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-discord"></i></a></li>
   </ul>
