@@ -19,11 +19,13 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
 
 ### Vista previa
+![Proyecto](/assets/portafolio1Captura.png)
+![Proyecto](/assets/portafolio1Captura(2).png)
 
-![Proyecto](/assets/portadolio1Captura.PNG)
+![Proyecto](/assets/portafolio1Captura(3).png)
 
-    ---- (subir imagenes de captura a assets)
+
 
  ### *Espero poder colaborar contigo. *
 *Correo*
-[lopezmetz621@gmail.com(mailto:lopezmet621@gmail.com)]
+[lopezmetz621@gmail.com](mailto:lopezmet621@gmail.com)
